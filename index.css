@@ -1,0 +1,95 @@
+*{
+  box-sizing: border-box;
+}
+
+.Userbody{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 15px 30px;
+  font-size: 17px;
+  padding: 8px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  background: linear-gradient(to bottom ,#176B87, #64CCC5);
+  
+}
+
+.Usercontainer{
+  background-color: #092635;
+  padding: 5px 20px 15px 20px;
+  background: linear-gradient(to bottom ,#9AD0C2, #ECF4D6);
+  border-radius: 4px;
+  width: 40vw;
+  color:BLACK;
+  border-color: #3498db;
+  box-shadow: 0 0 10px lightgray;
+}
+
+.Usercontainer:hover{
+  border-color: rgb(47, 255, 57);
+  box-shadow: 0 0 10px;
+}
+
+.Userhr{
+  border: 0.5px solid black;
+}
+
+
+.number{
+  width: 80%;
+  padding: 12px;
+  border: 1px solid #264653;
+  border-radius: 5px;
+  margin: 10px;
+  background: transparent;
+  color: BLACK;
+  border-color: #3498db;
+  box-shadow: 0 0 10px rgb(47, 255, 57);
+}
+
+.number:hover{
+  border-color: rgb(47, 255, 57);
+  box-shadow: 0 0 10px;
+}
+
+input[type="date"]{
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.fieldset{
+  background-color: transparent;
+  border: 1px solid #264653;
+  text-align: left;
+  border-color: #3498db;
+  margin-left: 10px;
+  box-shadow: 0 0 10px rgb(47, 255, 57);
+}
+
+.fieldset:hover{
+  border-color: rgb(47, 255, 57);
+  box-shadow: 0 0 10px;
+}
+
+
+
+.Userlegend{
+  text-align: left;
+  color:solid black;
+}
+
+.Userbutton{
+  background-color: rgb(103, 217, 255);
+  padding: 12px 20px;
+  border: 1px solid blue;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.Userbutton:hover{
+  background-color: rgb(47, 255, 57);
+}
+
